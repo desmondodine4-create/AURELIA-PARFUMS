@@ -1,0 +1,79 @@
+
+/* General Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar-brand {
+    letter-spacing: 2px;
+}
+
+/* Hero Section */
+#home {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Section Headings */
+section h2 {
+    letter-spacing: 1px;
+}
+
+/* Product Cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Product Images */
+.card-img-top {
+    height: 280px;
+    object-fit: cover;
+}
+
+.product-modal-image {
+    max-height: 480px;
+    object-fit: cover;
+}
+
+/* About Image */
+#about img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* Contact Form */
+#contact .form-control {
+    border-radius: 0;
+}
+
+#contact textarea {
+    resize: none;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 0;
+}
+
+/* Footer */
+footer {
+    letter-spacing: 0.5px;
+}
+
+/* Responsive Adjustment */
+@media (max-width: 768px) {
+    #home {
+        min-height: auto;
+    }
+
+    .card-img-top {
+        height: 240px;
+    }
+}
